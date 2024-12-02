@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project focuses on predicting the diagnosis (benign or malignant) of breast cancer based on cellular features using machine learning techniques. We use the **Breast Cancer Wisconsin (Diagnostic) Dataset** to train and evaluate various machine learning models, including **Logistic Regression** and **Support Vector Machines (SVM)**. Additionally, clustering techniques like **Agglomerative Clustering** and **K-Means** are used to explore unsupervised learning and assess natural groupings within the data. The goal of the project is to provide accurate predictions and insights to assist in breast cancer diagnosis.
+This project focuses on predicting the diagnosis (benign or malignant) of breast cancer based on cellular features using machine learning techniques. We use the **Breast Cancer Wisconsin (Diagnostic) Dataset** to train and evaluate various machine learning models, including **Logistic Regression** and **Support Vector Machines (SVM)**. Additionally, clustering techniques like **K-Means** are used to explore unsupervised learning and assess natural groupings within the data. The goal of the project is to provide accurate predictions and insights to assist in breast cancer diagnosis.
 
 ## Author
 Kayleigh Haydock: [Github](https://github.com/KaysHaydock)
@@ -42,10 +42,10 @@ In this project, two different machine learning techniques are employed for clas
 - A simple, yet effective model used for binary classification problems. **Logistic Regression** is used here to predict whether a tumor is benign or malignant based on the provided features.
 
 ### 2. Support Vector Machine (SVM)
-- SVM is used with both **linear** and **RBF (Radial Basis Function)** kernels to classify the data into benign and malignant categories. Hyperparameters like **C** and **gamma** are tuned using **GridSearchCV** and **RandomizedSearchCV** for better model performance.
+- SVM is used with both **linear** and **RBF (Radial Basis Function)** kernels to classify the data into benign and malignant categories. Hyperparameters like **C** and **gamma** are tuned using **GridSearchCV** for better model performance.
 
 ### 3. Clustering
-- I also used the Unsupervised Learning method of **Clustering** for this dataset to see if any features naturally grouped together, making use of K-Means and Agglomerative Clustering. Clustering helps uncover hidden patterns in data that could aid in understanding the characteristics of each class.
+- I also used the Unsupervised Learning method of **Clustering** for this dataset to see if any features naturally grouped together, making use of K-Means. Clustering helps uncover hidden patterns in data that could aid in understanding the characteristics of each class. The elbow method and Silhouette Score was also used to further validate the clusters.
 
 
 ## Installation and Setup
